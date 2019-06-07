@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SDK Logistic</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="SDK Logistic" />
+		<meta name="description" content="SDK Logistic">
+		<meta name="keywords" content="SDK Logistic" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">-->
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/swiper.min.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery.qtip.min.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery-filestyle.min.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body onload="divResizer()">
+        <div class="wrapper wrapper_header">
+            <nav class="navbar navbar-expand-md navbar-dark width-1440">
+                <a class="navbar-brand" href="/">
+                    <img src="img/logo.png">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+                <div class="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
+                    <div class="mobile-menu-close" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        
+                    </div>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#how">Как мы работаем</a>
+                        </li>			
+                        <li class="nav-item">
+                            <a class="nav-link" href="#advantages">Преимущества</a>
+                        </li>			
+                        <li class="nav-item">
+                            <a class="nav-link" href="#order">Стоимость</a>
+                        </li>			
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Контакты</a>
+                        </li>			
+                        <li class="nav-item">
+                            <a class="nav-link nav-link_phone" href="tel:+78129450307">+7(812)945-03-07</a>
+                        </li>			
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="wrapper wrapper_main">
+            <div class="container-fluid width-1440">
+                <div class="row row_main-content">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col_main-content">
+                        <div class="main__content">
+                            <div class="main__title">
+                                <span>Доставка секонд хенда и стока из Европы</span>
+                            </div>
+                            <div class="main-special">
+                                <div class="main-special__before">
+                                    <span>всего</span>
+                                </div>
+                                <div class="main-special__price">
+                                    <span>0,95$</span>
+                                </div>
+                                <div class="main-special__after">
+                                    <span>за 1кг</span>
+                                </div>
+                            </div>
+                            <div class="main__desc-n-btn">
+                                <div class="main__desc">
+                                    <span>От двери до двери за 5<br>рабочих дней</span>
+                                </div>
+                                <div class="main__order-btn" href="#order">
+                                    <span>Оформить!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper_how" id="how">
+            <div class="container-fluid width-1280">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="how__title">
+                            <h2>Как мы работаем</h2>
+                        </div>
+                    </div>
+                    <!--<div class="col-12 col-sm-12 col-md-12">
+                        <div class="how__desc">
+                            <span>Lorem ipsum dolor sit</span>
+                        </div>
+                    </div>-->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="how__item">
+                            <div class="how__item-inner">
+                                <div class="how__item-img">
+                                    <img src="img/mail.svg">
+                                </div>
+                                <div class="how__item-title">
+                                    <span>Вы оставляете заявку на просчет</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="how__item">
+                            <div class="how__item-inner">
+                                <div class="how__item-img">
+                                    <img src="img/customer-service.svg">
+                                </div>
+                                <div class="how__item-title">
+                                    <span>Менеджер уточняет данные высылает предложение </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="how__item">
+                            <div class="how__item-inner">
+                                <div class="how__item-img">
+                                    <img src="img/file.svg">
+                                </div>
+                                <div class="how__item-title">
+                                    <span>Мы заключаем с Вами Договор</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="how__item">
+                            <div class="how__item-inner">
+                                <div class="how__item-img">
+                                    <img src="img/car.svg">
+                                </div>
+                                <div class="how__item-title">
+                                    <span>Транспортировка до таможни</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="how__item">
+                            <div class="how__item-inner">
+                                <div class="how__item-img">
+                                    <img src="img/clock.svg">
+                                </div>
+                                <div class="how__item-title">
+                                    <span>Оформление груза за 24 часа. Доставка до склада РФ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="how__item">
+                            <div class="how__item-inner">
+                                <div class="how__item-img">
+                                    <img src="img/home.svg">
+                                </div>
+                                <div class="how__item-title">
+                                    <span>Выгрузка на складе / оплата услуги</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+        <div class="wrapper wrapper_factories">
+            <div class="container-fluid width-1440">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="factories__title">
+                            <h2>Фабрики</h2>
+                        </div>
+                    </div>
+                    <!--<div class="col-12 col-sm-12 col-md-12">
+                        <div class="factories__desc">
+                            <span>Lorem ipsum dolor sit</span>
+                        </div>
+                    </div>-->
+                    <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        // Создание обработчика для события window.onLoad
+                        YMaps.jQuery(function () {
+                            // Создание экземпляра карты и его привязка к созданному контейнеру
+                            var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+                            
+                            // Создает объект YMaps.Zoom с пользовательскими подсказками и добавляет его на карту.
+                            // Коэффициенту масштабирования 1 соответствует подсказка "Мелко",
+                            // коэффициенту масштабирования 9 - "Средне",
+                            // коэффициенту масштабирования 16 - "Крупно".
+                            var zoom = new YMaps.Zoom({
+                                /*customTips: [
+                                    { index: 1, value: "Мелко" },
+                                    { index: 9, value: "Средне" },
+                                    { index: 16, value: "Крупно" }
+                                ]*/
+                            });
+                            //Добавление элемента управления на карту
+                            map.addControl(zoom);		
+
+                            // Установка для карты ее центра и масштаба
+                            map.setCenter(new YMaps.GeoPoint(10.551692, 51.228764), 5);
+                            
+                            // Создание группы объектов и добавление ее на карту
+                            var group = new YMaps.GeoObjectCollection();
+                            group.add(createPlacemark(new YMaps.GeoPoint(10.551692, 51.228764), 'Германия',
+                                                                                                'Geo-tex Textilverwertung GmbH & Co. KG<br>\
+                                                                                                Wasteland GmbH & Co. KG<br>\
+                                                                                                Striebel Textil GmbH<br>\
+                                                                                                SOEX Textil - Vermarktungsgesellschaft GmbH<br>\
+                                                                                                Textrade Textilverwertungs und Handels GmbH<br>\
+                                                                                                А. Fuest & Sohne GmbH<br>\
+                                                                                                Johannes Riemer GmbH'));
+                            group.add(createPlacemark(new YMaps.GeoPoint(4.863748, 50.510867), 'Бельгия',
+                                                                                                'Eurofrip S.r.l.<br>\
+                                                                                                Elhamd BvBa'));
+                            group.add(createPlacemark(new YMaps.GeoPoint(5.838421, 52.848781), 'Голландия',
+                                                                                                'Marbo Recycling B.V<br>\
+                                                                                                Inyotex Recycling B.V<br>\
+                                                                                                Lemabotex B.V'));
+                            group.add(createPlacemark(new YMaps.GeoPoint(19.385329, 47.135747), 'Венгрия',
+                                                                                                'Astex Hungary Kft<br>\
+                                                                                                Texaid Kft<br>\
+                                                                                                Angyal Használtruha Kft<br>\
+                                                                                                MAG Holding Kft'));
+                            group.add(createPlacemark(new YMaps.GeoPoint(19.758436, 51.211428), 'Польша',
+                                                                                                'Angora Import-Export<br>\
+                                                                                                VIVE Textile Recycling sp. z o. o.'));
+                            group.add(createPlacemark(new YMaps.GeoPoint(24.921242, 57.172425), 'Латвия',
+                                                                                                'Kreskat Trading SIA<br>\
+                                                                                                ILP market SIA'));
+                            group.add(createPlacemark(new YMaps.GeoPoint(23.600189, 55.508473), 'Литва',
+                                                                                                'UAB Sideritas<br>\
+                                                                                                UAB Sargma<br>\
+                                                                                                UAB Harmonijos OAZE<br>\
+                                                                                                UAB Alfasis<br>\
+                                                                                                UAB Ramsiga<br>\
+                                                                                                UAB Lencas<br>\
+                                                                                                UAB Sentauras<br>\
+                                                                                                UAB Doseka<br>\
+                                                                                                UAB Davoteksa<br>\
+                                                                                                UAB Eudra<br>\
+                                                                                                UAB Dolresta<br>\
+                                                                                                UAB Besttex<br>\
+                                                                                                UAB Novo Projektai'));
+                            group.add(createPlacemark(new YMaps.GeoPoint(-105.983704, 54.164145), 'Канада',
+                                                                                                'Canadian Buluar Services Inc<br>\
+                                                                                                Wearex Limited<br>\
+                                                                                                BR Textile'));
+                            group.add(createPlacemark(new YMaps.GeoPoint(-1.276317, 52.515717), 'Англия',
+                                                                                                'Clothes Aid Limited<br>\
+                                                                                                Nessie Limited<br>\
+                                                                                                Clothing for you Limited<br>\
+                                                                                                Recycling Clothes Company Limited'));
+                            map.addOverlay(group);
+
+                            // Создание управляющего элемента "Путеводитель по офисам"
+                            map.addControl(new OfficeNavigator(group));	
+                            
+                        });
+
+                        // Функия создания метки
+                        function createPlacemark (geoPoint, name, description) {
+                            
+                            // Создает стиль
+                            var s = new YMaps.Style();
+                            // Создает стиль значка метки
+                            s.iconStyle = new YMaps.IconStyle();
+                            s.iconStyle.href = "img/marker.svg";
+                            s.iconStyle.size = new YMaps.Point(29, 41);
+                            s.iconStyle.offset = new YMaps.Point(-15, -42);		
+                            
+                            var placemark = new YMaps.Placemark(geoPoint, {style: s});
+                            placemark.name = name;
+                            placemark.description = description;
+                            return placemark;
+                        }
+
+                        // Управляющий элемент "Путеводитель по офисам", реализиует интерфейс YMaps.IControl
+                        function OfficeNavigator (offices) {
+
+                            // Добавление на карту
+                            this.onAddToMap = function (map, position) {
+                                    this.wrapper = YMaps.jQuery("<div class=\"interactive-yandex-map__links-wrapper\"></div>");
+                                    this.wrapperHelper = YMaps.jQuery("<div class=\"interactive-yandex-map__links-wrapper-helper\"></div>");
+                                    this.container = YMaps.jQuery("<ul class=\"interactive-yandex-map__links\"></ul>");
+                                    this.map = map;
+                                    this.position = position || new YMaps.ControlPosition(YMaps.ControlPosition.TOP_RIGHT, new YMaps.Size(10, 10));
+
+                                    // Выставление необходимых CSS-свойств
+                                    this.wrapper.css({
+                                        position: "absolute",
+                                        zIndex: YMaps.ZIndex.CONTROL,
+                                        background: '#fff',
+                                        listStyle: 'none',
+                                        margin: 0
+                                    });
+                                    
+                                    // Формирование списка офисов
+                                    this._generateList();
+                                    
+                                    // Применение позиции к управляющему элементу
+                                    this.position.apply(this.wrapper);
+                                    
+                                    // Добавление на карту
+                                    this.wrapper.appendTo(this.map.getContainer());
+                                    this.wrapperHelper.appendTo(this.wrapper);
+                                    this.container.appendTo(this.wrapperHelper);
+                            }
+
+                            // Удаление с карты
+                            this.onRemoveFromMap = function () {
+                                this.container.remove();
+                                this.container = this.map = null;
+                            };
+
+                            // Пока "летим" игнорируем клики по ссылкам
+                            this.isFlying = 0;
+
+                            // Формирование списка офисов
+                            this._generateList = function () {
+                                var _this = this;
+                                
+                                // Для каждого объекта вызываем функцию-обработчик
+                                offices.forEach(function (obj) {
+                                    // Создание ссылок на объект
+                                    var li = YMaps.jQuery("<li class=\"interactive-yandex-map__link\"><a href=\"#\">" + obj.name + "</a></li>");
+                                    var li2 = YMaps.jQuery("[data="+ obj.name +"]");
+                                    var a = li.find("a");
+                                    var a2 = li2.find("a");
+                                    
+                                    // Создание обработчиков щелчка по ссылкам
+                                    li.bind("click", function () {
+                                        if (!_this.isFlying) {
+                                            _this.isFlying = 1;
+                                            _this.map.panTo(obj.getGeoPoint(), {
+                                                flying: 1,
+                                                callback: function () {
+                                                    obj.openBalloon();
+                                                    _this.isFlying = 0;
+                                                }
+                                            });
+                                            $('.factory__title').html(obj.name);
+                                            $('.factory__desc').html(obj.description);
+                                        }
+                                        return false;
+                                    });
+                                    li2.bind("click", function () {
+                                        if (!_this.isFlying) {
+                                            _this.isFlying = 1;
+                                            _this.map.panTo(obj.getGeoPoint(), {
+                                                flying: 1,
+                                                callback: function () {
+                                                    obj.openBalloon();
+                                                    _this.isFlying = 0;
+                                                }
+                                            });
+                                        }
+                                        return false;
+                                    });				
+                                    
+                                    // Слушатели событий на открытие и закрытие балуна у объекта
+                                    YMaps.Events.observe(obj, obj.Events.BalloonOpen, function () {
+                                        a.css("text-decoration", "none");
+                                        a2.css("text-decoration", "none");
+                                    });
+                                    
+                                    YMaps.Events.observe(obj, obj.Events.BalloonClose, function () {
+                                        a.css("text-decoration", "");
+                                        a2.css("text-decoration", "");
+                                    });
+                                    
+                                    // Добавление ссылки на объект в общий список
+                                    li.appendTo(_this.container);
+                                });
+                            };
+                        }
+                    </script>
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="factories__map-yandex">
+                            <div class="interactive-yandex-map" id="YMapsID" style="height:400px;"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="factory factory-yandex">
+                            <div class="factory__title">
+                                Германия
+                            </div>
+                            <div class="factory__desc">
+                                Geo-tex Textilverwertung GmbH & Co. KG<br>
+                                Wasteland GmbH & Co. KG<br>
+                                Striebel Textil GmbH<br>
+                                SOEX Textil - Vermarktungsgesellschaft GmbH<br>
+                                Textrade Textilverwertungs und Handels GmbH<br>
+                                А. Fuest & Sohne GmbH<br>
+                                Johannes Riemer GmbH
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="col-12 col-sm-12 col-md-12">
+                        <div class="factories__map">
+                            <div class="factory-marker factory-marker_1 hasTooltip">
+                                <div class="factory-marker__inner"></div>
+                            </div>
+                            <div class="hidden-qtip">GeoTex</div>
+                            <div class="factory-marker factory-marker_2 hasTooltip">
+                                <div class="factory-marker__inner"></div>
+                            </div>
+                            <div class="hidden-qtip">GeoTex</div>
+                            <div class="factory-marker factory-marker_3 hasTooltip">
+                                <div class="factory-marker__inner"></div>
+                            </div>
+                            <div class="hidden-qtip">GeoTex</div>
+                            <div class="factory-marker factory-marker_4 hasTooltip">
+                                <div class="factory-marker__inner"></div>
+                            </div>
+                            <div class="hidden-qtip">GeoTex</div>
+                            <div class="factory-marker factory-marker_5 hasTooltip">
+                                <div class="factory-marker__inner"></div>
+                            </div>
+                            <div class="hidden-qtip">GeoTex</div>
+                            <div class="factory-marker factory-marker_6 hasTooltip">
+                                <div class="factory-marker__inner"></div>
+                            </div>
+                            <div class="hidden-qtip">GeoTex</div>
+                            <div class="factory-marker factory-marker_7 hasTooltip">
+                                <div class="factory-marker__inner"></div>
+                            </div>
+                            <div class="hidden-qtip">GeoTex</div>
+                            <div class="factory">
+                                <div class="factory__title">
+                                    <span>GeoTex</span>
+                                </div>
+                                <div class="factory__desc">
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="factory-mobile">
+                            <div class="factory__title">
+                                <span>GeoTex</span>
+                            </div>
+                            <div class="factory__desc">
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</span>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper_order" id="order">
+            <div class="container-fluid width-1440">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="order__title">
+                            <h2>Узнайте стоимость доставки<br>вашего груза</h2>
+                        </div>
+                        <div class="order__title success" style="display:none;">
+                            <h2>Спасибо за обращение.<br> Мы с вами свяжемся!</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="order__form">
+                            <form class="order__form-form" method="post" id="form" novalidate="novalidate" onsubmit="submitForm(); return false;">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-md-6">
+                                            <div class="order__form-field">
+                                                <input type="text" id="name" name="name" placeholder="Имя" required="">
+                                            </div>
+                                            <div class="order__form-field">
+                                                <input type="text" id="phone" name="phone" placeholder="Телефон" required="">
+                                            </div>
+                                            <div class="order__form-field">
+                                                <input type="email" id="email" name="email" placeholder="Email" required="">
+                                            </div>
+                                            <!--<div class="order__form-field">
+                                                <div class="order__form-field-file">Прикрепить файл</div>
+                                            </div>-->
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-6">
+                                            <div class="order__form-field">
+                                                <textarea cols="100" rows="7" id="text" name="text" placeholder="Напишите вводные данные заявки" required=""></textarea>
+                                            </div>                                        
+                                            <div class="order__form-submit">
+                                                <input type="submit" value="Отправить">
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper_advantages" id="advantages">
+            <div class="container-fluid width-1280">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="advantages__title">
+                            <h2>Наши преимущества</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="advantages__desc">
+                            <span>Что именно вы получаете</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="advantage">
+                            <div class="advantage__inner">
+                                <div class="advantage__img">
+                                    <img src="img/timer.png">
+                                </div>
+                                <div class="advantage__title">
+                                    <span>7 дней от склада до склада</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="advantage">
+                            <div class="advantage__inner">
+                                <div class="advantage__img">
+                                    <img src="img/wallet.png">
+                                </div>
+                                <div class="advantage__title">
+                                    <span>Отсрочка платежей постоянным клиентам</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="advantage">
+                            <div class="advantage__inner">
+                                <div class="advantage__img">
+                                    <img src="img/credit-card.png">
+                                </div>
+                                <div class="advantage__title">
+                                    <span>Кредитная линия постоянных клиентов</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="advantage">
+                            <div class="advantage__inner">
+                                <div class="advantage__img">
+                                    <img src="img/binoculars.png">
+                                </div>
+                                <div class="advantage__title">
+                                    <span>Поиск товаров и новых заводов</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="advantage">
+                            <div class="advantage__inner">
+                                <div class="advantage__img">
+                                    <img src="img/help.png">
+                                </div>
+                                <div class="advantage__title">
+                                    <span>Помощь открытия бизнеса в сфере сэконд хэнд</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="advantage">
+                            <div class="advantage__inner">
+                                <div class="advantage__img">
+                                    <img src="img/pallet.png">
+                                </div>
+                                <div class="advantage__title">
+                                    <span>Склады в Европе и России</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper_contacts" id="contacts">
+            <div class="container-fluid width-1440">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="contacts__title">
+                            <h2>Наши контакты</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="contacts__desc">
+                            <span>Как нас найти</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12">
+				        <div class="contacts__swiper">
+					        <div class="swiper-container swiper-container_contacts">
+						        <div class="swiper-wrapper swiper-wrapper_contacts">
+                                    <div class="swiper-slide swiper-slide_contacts">
+                                        <div class="contact">
+                                            <div class="contact__photo">
+                                                <img src="img/people/2.jpg">
+                                            </div>
+                                            <div class="contact__title">
+                                                <span>менеджер<br>отдела<br>продаж</span>
+                                            </div>
+                                            <div class="contact__desc">
+                                                <span>Грищуков Дмитрий</span>
+                                            </div>
+                                            <div class="contact__phone">
+                                                <a href="tel:+79215716784">+79215716784</a>
+                                            </div>
+                                            <div class="contact__email">
+                                                <a href="mailto:grishukov@sdklogistic.com">grishukov@sdklogistic.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide_contacts">
+                                        <div class="contact">
+                                            <div class="contact__photo">
+                                                <img src="img/people/3.jpg">
+                                            </div>
+                                            <div class="contact__title">
+                                                <span>менеджер<br>отдела<br>продаж</span>
+                                            </div>
+                                            <div class="contact__desc">
+                                                <span>Санников Виктор</span>
+                                            </div>
+                                            <div class="contact__phone">
+                                                <a href="tel:+79219854959">+79219854959</a>
+                                            </div>
+                                            <div class="contact__email">
+                                                <a href="mailto:info@sdklogistic.com">info@sdklogistic.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide_contacts">
+                                        <div class="contact">
+                                            <div class="contact__photo">
+                                                <img src="img/people/1.jpg">
+                                            </div>
+                                            <div class="contact__title">
+                                                <span>менеджер<br>отдела<br>логистики</span>
+                                            </div>
+                                            <div class="contact__desc">
+                                                <span>Никифорова Зоя</span>
+                                            </div>
+                                            <div class="contact__phone">
+                                                <a href="tel:+79215716784">+79215716784</a>
+                                            </div>
+                                            <div class="contact__email">
+                                                <a href="mailto:nikiforova@sdklogistic.com">nikiforova@sdklogistic.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide_contacts">
+                                        <div class="contact">
+                                            <div class="contact__photo">
+                                                <img src="img/people/4.jpg">
+                                            </div>
+                                            <div class="contact__title">
+                                                <span>менеджер<br>отдела<br>логистики</span>
+                                            </div>
+                                            <div class="contact__desc">
+                                                <span>Стулов Андрей</span>
+                                            </div>
+                                            <div class="contact__phone">
+                                                <a href="tel:+79213221029">+79213221029</a>
+                                            </div>
+                                            <div class="contact__email">
+                                                <a href="mailto:stulov@sdklogistic.com">stulov@sdklogistic.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide_contacts">
+                                        <div class="contact">
+                                            <div class="contact__photo">
+                                                <img src="img/people/5.jpg">
+                                            </div>
+                                            <div class="contact__title">
+                                                <span>менеджер<br>сборных<br>грузов</span>
+                                            </div>
+                                            <div class="contact__desc">
+                                                <span>Алия Камильевна</span>
+                                            </div>
+                                            <div class="contact__phone">
+                                                <a href="tel:+78129450307">+78129450307</a>
+                                            </div>
+                                            <div class="contact__email">
+                                                <a href="mailto:sborka@sdklogistic.com">sborka@sdklogistic.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev swiper-button-prev_contacts"></div>
+                            <div class="swiper-button-next swiper-button-next_contacts"></div>                            
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper_contacts-main">
+            <div class="container-fluid width-1440">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="contacts-main__map">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab67a5a2818b24a95ef320a417237cb218e368f39bcb19a17c580c0b959735e09&amp;width=100%25&amp;height=338&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col_contacts-main-content">
+                        <div class="contacts-main__content">
+                            <div class="contacts-main__content-item">
+                                <span>Юридический адрес: 198095, г. Санкт-Петербург, ул. Маршала Говорова, д. 35, к. 4, лит. И, пом. 16-Н, офис 311</span>
+                            </div>
+                            <div class="contacts-main__content-item">
+                                <span>Общий номер телефона: <a href="tel:+78129450307">+7(812)945-03-07</a></span>
+                            </div>
+                            <div class="contacts-main__content-item">
+                                <span>Общая почта: <a href="mailto:info@sdklogistic.com">info@sdklogistic.com</a></span>
+                            </div>
+                            <div class="contacts-main__content-item">
+                                <span>Общая почта отдела логистики: <a href="mailto:logistika@sdklogistic.com">logistika@sdklogistic.com</a></span>
+                            </div>
+                            <!--<div class="contacts-main__content-item">
+                                <a href="#" class="contacts-main__contact-icon-link"><img src="img/phone.svg"></a>
+                                <a href="#" class="contacts-main__contact-icon-link"><img src="img/arroba.svg"></a>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper_partner">
+            <div class="container-fluid width-1280">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="partner__title">
+                            <h2>Наш постоянный партнер</h2>
+                        </div>
+                        <!--<div class="partner__person">
+                            <div class="partner__person-part partner__person-part1">
+                                <div class="partner__person-img">
+                                    <img src="img/man.png">
+                                </div>
+                            </div>
+                            <div class="partner__person-part partner__person-part2">
+                                <div class="partner__person-title">
+                                    <span>Lorem Ipsum</span>
+                                </div>
+                                <div class="partner__person-desc">
+                                    <span>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </span>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="partner__logo">
+                            <a href="https://tdgol.ru/" target="_blank"><img src="img/logo_tdg.png"></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="partner__desc">
+                            <p>Торговый Дом Голландии – это крупнейшая оптовая сеть second hand и сток в России, занимающая лидирующие позиции в бизнесе уже более 25 лет.</p>
+                            <p>Как оптовые продавцы, мы закупаем товар в Европейских странах и, доставив в Россию. Сегодня бизнес секонд-хенд становится все актуальнее — большое количество людей, столкнувшись с проблемой поиска работы, решают реализовать себя в собственном деле, и мы рады поддержать их начинания: дать исчерпывающие консультации на обучающих семинарах, рассказать о действительно работающих инструментах, проверенных на 1000 предпринимателей, предостеречь от совершения ошибок при открытии и развитии своего бизнеса, а также <a href="https://tdgol.ru/sotrudnichestvo/franshiza/" target="_blank">возможность построить собственный бизнес с минимальными инвестициями</a>.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="partner__desc">
+                            <p><strong>ПОЧЕМУ ВАМ ВЫГОДНО СОТРУДНИЧАТЬ С НАМИ:</strong></p>
+                            <ul>
+                                <li>Удобный просмотр товара для жителей всей страны. Наличие складов в Санкт-Петербурге, Москве, Кирове, Нижнем Новгороде, Челябинске и Ижевске.</li>
+                                <li>Гарантированно лучшие цены на рынке. Закажите индивидуальный расчет Вашего заказа и убедитесь, что наше предложение самое выгодное.</li>
+                                <li>Объем от мешка до контейнера. Для нас важен каждый клиент, поэтому мы работаем с любым объемом закупок.</li>
+                                <li>Интерактивное управление закупками на нашем сайте. Возможность дистанционного просмотра и заказа товара. Оплата любым удобным для Вас способом.</li>
+                                <li>Обучающие семинары, вебинары и тренинги в Учебном Центре компании. Направления обучения: подбор персонала, увеличение продаж, реклама и маркетинг.</li>
+                                <li>Клиентоориентированность компании. Сотрудники нашей компании умеют превосходить ожидания клиентов даже в мелочах.</li>
+                                <li>Торговый Дом Голландии усиливает поддержку всех новых клиентов! Скидка на первую закупку 15% при первом обращении и 10% на полгода при ежемесячной закупке в любом ближайшем к Вам филиале Торгового Дома Голландии.</li>
+                            </ul>
+                            <p><strong>Позвонить бесплатно 8(800) 500-72-81</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="wrapper wrapper_footer">
+			<div class="container-fluid width-1280">
+				<div class="row">
+                    <!--<div class="col-12 col-sm-6 col-md-3">
+                        <div class="footer__menu">
+                            <ul>
+                                <li><a href="#">Доставка из Китая</a></li>
+                                <li><a href="#">Доставка из Европы</a></li>
+                                <li><a href="#">Доставка авто, ж/д, морем</a></li>
+                                <li><a href="#">От склада до склада "под ключ"</a></li>
+                                <li><a href="#">Экспедирование грузоперевозок</a></li>
+                                <li><a href="#">3PL услуги</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="footer__menu">
+                            <ul>
+                                <li><a href="#">Растаможка тканей</a></li>
+                                <li><a href="#">Растаможка оборудования</a></li>
+                                <li><a href="#">Растаможка автозапчастей</a></li>
+                                <li><a href="#">Растаможка одежды</a></li>
+                                <li><a href="#">Растаможка мебели</a></li>
+                                <li><a href="#">Растаможка стройматериалов</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="footer__contacts">
+                            <p>Юридический адрес: 198095, г. Санкт-Петербург, ул. Маршала Говорова, д. 35, к. 4, лит. И, пом. 16-Н, офис 311</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="footer__contacts">
+                            <p>Общий номер телефона: <a href="tel:+78129450307">+7(812)945-03-07</a><br>Общая почта: <a href="mailto:info@sdklogistic.com">info@sdklogistic.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="footer__contacts">
+                            <p>Общая почта отдела логистики: <a href="mailto:logistika@sdklogistic.com">logistika@sdklogistic.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="footer__copyright">
+                            <span>Created by</span>
+                            <a href="http://myeleven.ru/" target="_blank"><img src="img/eleven.svg" alt="Eleven"></a>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/jquery.qtip.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery-filestyle.min.js"></script>
+		<script src="js/jquery.matchHeight-min.js"></script>
+		<script src="js/input.js"></script>
+		<script src="js/script.js"></script>
+        <!-- BEGIN JIVOSITE CODE {literal} -->
+        <script type='text/javascript'>
+        (function(){ var widget_id = 'XWi9qPl13R';var d=document;var w=window;function l(){
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+        s.src = '//code.jivosite.com/script/widget/'+widget_id
+            ; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}
+        if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}
+        else{w.addEventListener('load',l,false);}}})();
+        </script>
+        <!-- {/literal} END JIVOSITE CODE -->	
+    </body>
+</html>
